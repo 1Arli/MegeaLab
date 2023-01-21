@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/projekt1.css">
+
+</head>
+<body>
+
+<body>
+  <script src="js/buton.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img width=250px height=100px src="imazhe/foto1.jpeg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Kreu</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="rrethnesh.html">Rreth nesh</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="sherbimet.html">Analiza</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="paketa.html">Paketa</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="kontakt.html">Kontakt</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Kërko" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Kërko</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    <!-- Contact Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="section-title">
+                <h1 class="text-center display-4">Na kontaktoni</h1>
+            </div>
+            <br>
+            <div class="row px-3 pb-2">
+                <div class="col-sm-4 text-center mb-3">
+                    <i class="fa fa-2x fa-map-marker-alt mb-3 text-primary"></i>
+                    <h4 class="font-weight-bold">Adresa</h4>
+                    <p>Rruga: Rrahim Gjika, Peshkopi</p>
+                </div>
+                <div class="col-sm-4 text-center mb-3">
+                    <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
+                    <h4 class="font-weight-bold">Phone</h4>
+                    <p>✆ (+355) 67 32 24 595</p>
+                    <p>✆ (+355) 67 25 32 742</p>
+                </div>
+                <div class="col-sm-4 text-center mb-3">
+                    <i class="far fa-2x fa-envelope mb-3 text-primary"></i>
+                    <h4 class="font-weight-bold">Email</h4>
+                    <p>✉ emanuelanuredini@yahoo.com</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 pb-5">
+                    <iframe style="width: 100%; height: 443px;"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1887.297613770157!2d20.424529509740193!3d41.687234538412035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1351738aa9b58c3d%3A0xc4d5e35a88649b3e!2sPeshkopi%20Hospital!5e0!3m2!1sen!2s!4v1674070649558!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                </div>
+                <div class="col-md-6 pb-5">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control bg-transparent p-4" id="name" placeholder="Emri"
+                                    required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control bg-transparent p-4" id="email" placeholder="Mbiemri"
+                                    required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control bg-transparent p-4" id="subject" placeholder="Email Address"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control bg-transparent py-3 px-4" rows="5" id="message" placeholder="Mesazhi që doni të dërgoni"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton">Dërgo</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <button onclick="topFunction()" id="myBtn" title="Go to top" >⟰</button>
+    <!-- Contact End -->
+    <footer
+    class="text-center text-lg-start text-white"
+    style="background-color: #45526e"
+    >
+<!-- Grid container -->
+<div class="container p-4 pb-0">
+<!-- Section: Links -->
+<section class="">
+  <!--Grid row-->
+  <div class="row">
+    <!-- Grid column -->
+    <div class="col-md-8 col-lg-3 col-xl-3 mx-auto mt-3">
+      <h6 class="text-uppercase mb-4 font-weight-bold">
+        <img widht=250px height=100px src="imazhe/foto1.jpeg">
+      </h6>
+      <p>
+        Laborator biokimik, klinik, hormonal, mikrobiologjik.
+        <p>Shëndeti juaj, obligim për ne.</p>
+      </p>
+    </div>
+    <!-- Grid column -->
+
+    <hr class="w-100 clearfix d-md-none" />
+
+    <!-- Grid column -->
+    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+      
+      <a href="index.html" style="text-decoration: none; color: white;"><p>Kreu </p></a>
+      <a href="rrethnesh.html" style="text-decoration: none; color: white;"><p>Rreth nesh </p></a>
+      <a href="sherbimet.html" style="text-decoration: none; color: white;"><p>Analizat</p></a>
+      <a href="paketa.html" style="text-decoration: none; color: white;"><p>Paketa </p></a>
+      <a href="contact.html" style="text-decoration: none; color: white;"><p>Kontakt</p></a>
+    </div>
+    <!-- Grid column -->
+
+    <hr class="w-100 clearfix d-md-none" />
+
+    <!-- Grid column -->
+    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+      <h6 class="text-uppercase mb-4 font-weight-bold">Oraret</h6>
+      <p>E hënë - e premte</p>
+      <p>• 08:00 - 16:00</p>
+      <p>E shtunë</p>
+      <p>• 08:00 - 13:00</p>
+      <p>E diel • Pushim </p>
+    </div>
+
+    <!-- Grid column -->
+    <hr class="w-100 clearfix d-md-none" />
+
+    <!-- Grid column -->
+    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+      <h6 class="text-uppercase mb-4 font-weight-bold">Kontakt</h6>
+      <p><i class="fas fa-home  mr-3"></i>Përballë spitalit "Rrahim Gjika", Peshkopi </p>
+      <p><i class="fas fa-envelope mr-3"></i> ✉ emanuelanuredini@yahoo.com</p>
+      <p><i class="fas fa-phone mr-3"></i> ✆ (+355) 67 32 24 595 </p>
+      <p><i class="fas fa-phone mr-3"></i> ✆ (+355) 67 25 32 742</p>
+    </div>
+    <!-- Grid column -->
+  </div>
+  <!--Grid row-->
+</section>
+<!-- Section: Links -->
+
+<hr class="my-3">
+
+<!-- Section: Copyright -->
+<section class="p-3 pt-0">
+  <div class="row d-flex align-items-center">
+    <!-- Grid column -->
+    <div class="col-md-7 col-lg-8 text-center text-md-start">
+      <!-- Copyright -->
+      <div class="m-auto p-3">
+        © Copyright 2023 Megea LAB
+      </div>
+      <!-- Copyright -->
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-5 col-lg-4 mb-lg-0 text-center text-md-end">
+      <!-- Facebook -->
+      <a 
+         class="btn"
+         role="button"
+         class="btn btn-outline-light button-floating mb-1">
+         <a href="https://www.facebook.com/profile.php?id=100042829945679&mibextid=LQQJ4d"><img widht=30px height=30px src="imazhe/foto2.jpeg">
+      </a>
+    </div>
+    <!-- Grid column -->
+  </div>
+</section>
+<!-- Section: Copyright -->
+</div>
+<!-- Grid container -->
+</footer>
+<!-- Footer -->
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<!-- End of .container -->
+</body>
+</html>
+              
